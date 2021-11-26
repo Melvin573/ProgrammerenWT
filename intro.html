@@ -1,1 +1,18 @@
-<b>poep<b>
+<script>
+function1(color) {
+   
+    if(document.getElementById("invoer").value == "welkom"){
+        document.getElementById("hoofd1").innerHTML = "yes";
+        document.getElementById("hoofd1").style.backgroundColor = 'green';
+    }
+    else{
+        document.getElementById("hoofd1").innerHTML = "no";
+        document.getElementById("hoofd1").style.backgroundColor = 'red';
+    }
+}
+
+</script>
+<h1 id="hoofd1">xxxxx</h1>
+<input type="text" id="invoer"></input>
+<input type="button" id="knop" value="Submit" onclick= "function1()"></input>
+
